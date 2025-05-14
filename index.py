@@ -3,8 +3,8 @@ import datetime
 patients = []
 appointments = []
 
-def add_patient():
-    name = input("Enter patient name: ");;
+;;def add_patient():
+    name = input("Enter patient name: ")
     age = input("Enter age: ")
     gender = input("Enter gender: ")
     contact = input("Enter contact number: ")
@@ -18,7 +18,7 @@ def add_patient():
     })
     print(f"Patient {name} added with ID {patient_id}.")
 
-def view_patients():
+>>>def view_patients():
     if not patients:
         print("No patient records found.")
     for patient in patients:
