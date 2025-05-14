@@ -3,7 +3,7 @@ import datetime
 patients = []
 appointments = []
 
->>.....>>>
+def add_patient():
     name = input("Enter patient name: ")
     age = input("Enter age: ")
     gender = input("Enter gender: ")
